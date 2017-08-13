@@ -1,10 +1,10 @@
 console.log('Loaded!');
 // same inspect elem code
-var element=document.getElementById('main')
-element
+var element=document.getElementById('main');
+
 
 //move img 
-var img=document.getElementById('madi')
+var img=document.getElementById('madi');
 var marginLeft=0;
 function moveRight()
 {
