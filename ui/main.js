@@ -40,7 +40,7 @@ button.onclick = function()
          }
      }
      
-     request.open('GET','http://anufreebird26.imad.hasura-app.io',true);
+     request.open('GET','http://anufreebird26.imad.hasura-app.io/counter',true);
      request.send(null);
     
  /*   //count clicking button
