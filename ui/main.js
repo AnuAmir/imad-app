@@ -38,7 +38,7 @@ button.onclick = function()
               span.innerHtml=counter.toString();
              }
          }
-     }
+     };
      
      request.open('GET','http://anufreebird26.imad.hasura-app.io/counter',true);
      request.send(null);
