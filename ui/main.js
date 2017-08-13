@@ -29,7 +29,7 @@ button.onclick = function()
     //response to conter vAR
      request.onreadystatechange =function()
      {
-         if(request.readystate=== XMLHttpReuest.Done)
+         if(request.readyState=== XMLHttpReuest.DONE)
          {
              if(request.state===200)
              {
