@@ -1,5 +1,5 @@
-console.log('Loaded!');
-// same inspect elem code
+/*console.log('Loaded!');
+// same inspect elem code img move 
 var element=document.getElementById('main');
 
 element.innerHTML='text modified';
@@ -15,4 +15,15 @@ function moveRight()
 img.onclick = function()
 {
     var interval=setInterval(moveRight,100);
+};
+*/
+
+
+var button=document.getElementById('counter');
+var counter=0;
+button.onclick = function()
+{
+    counter=counter+1;
+    var span=document.getElementById('count');
+    span.innerHTML=counter.toString();
 };
